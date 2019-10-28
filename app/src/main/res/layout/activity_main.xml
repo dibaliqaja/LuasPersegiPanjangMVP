@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luas_persegi_panjang"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/panjang"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/edt_panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:importantForAutofill="no"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lebar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edt_lebar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1"
+        android:importantForAutofill="no" />
+
+    <Button
+        android:id="@+id/btn_hasil"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="@string/hasil" />
+
+</LinearLayout>
